@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-08-19 17:09:10",
+  "num_samples": 5388,
+  "num_classes": 3,
+  "class_names": [
+    "empty",
+    "walking",
+    "weapon"
+  ],
+  "test_accuracy": 1.0,
+  "confusion_matrix": [
+    [
+      390,
+      0,
+      0
+    ],
+    [
+      0,
+      348,
+      0
+    ],
+    [
+      0,
+      0,
+      340
+    ]
+  ],
+  "classification_report": {
+    "empty": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 390.0
+    },
+    "walking": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 348.0
+    },
+    "weapon": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 340.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1078.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1078.0
+    }
+  }
+}

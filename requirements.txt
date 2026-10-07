@@ -1,0 +1,18 @@
+# PROJECT SHADOW — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core (required)
+matplotlib>=3.7
+numpy>=1.24
+
+# Signal processing & ML (required)
+scipy>=1.10
+scikit-learn>=1.2
+pandas>=2.0
+
+# Neural network (required for --ai mode and train_model.py)
+torch>=2.0
+joblib>=1.2
+
+# Hardware (optional — only needed for --port / live ESP32 mode)
+# pyserial>=3.5
